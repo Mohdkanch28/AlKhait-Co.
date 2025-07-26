@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | AlKhait Co.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.7;
+      background-color: #fff;
+      color: #222;
+    }
+    header {
+      background: url('/image/tricolor.webp') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    header .content {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+    }
+    header a {
+      background-color: #fff;
+      color: #000;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    header a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    section {
+      padding: 80px 10%;
+    }
+    .story {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .story h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-family: 'Playfair Display', serif;
+    }
+    .story p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .beliefs {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 60px;
+      text-align: center;
+    }
+    .belief {
+      width: 30%;
+    }
+    .belief i {
+      font-size: 40px;
+      color: #000;
+      margin-bottom: 10px;
+    }
+    .belief h3 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+    .team {
+      margin-top: 80px;
+      text-align: center;
+    }
+    .team h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+    }
+    .team-members {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .member {
+      width: 250px;
+    }
+    .member img {
+      width: 100%;
+      border-radius: 10px;
+      filter: grayscale(100%);
+      transition: 0.5s;
+    }
+    .member img:hover {
+      filter: grayscale(0%);
+    }
+    .member p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      background-color: #000;
+      color: #fff;
+      padding: 60px 20px;
+    }
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-family: 'Playfair Display', serif;
+    }
+    .cta a {
+      background-color: #fff;
+      color: #000;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="content">
+      <h1>Not Just Threads. A Story Woven In Every Stitch.</h1>
+      <a href="#story">Explore Our Journey</a>
+    </div>
+  </header>
+
+  <section id="story" class="story">
+    <h2>The Story Behind AlKhait Co.</h2>
+    <p>
+      Born from a passion for culture, craft, and contemporary fashion — AlKhait Co. isn’t just a label.
+      We are a movement that blends tradition with trend, elegance with edge. Every fabric we choose, every design we release, tells a story — your story.
+    </p>
+
+    <div class="beliefs">
+      <div class="belief">
+        <i>🧵</i>
+        <h4>Authenticity</h4>
+        <p>Our designs are raw, real, and rooted in identity.</p>
+      </div><br>
+      <div class="belief">
+        <i>👕</i>
+        <h4>Craftsmanship</h4>
+        <p>Each piece is made with attention to detail and love.</p>
+      </div><br>
+      <div class="belief">
+        <i>🌍</i>
+        <h4>Purpose</h4>
+        <p>We don’t just create fashion — we create impact.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="cta">
+    <h2>Wear the Story. Live the Identity.</h2>
+    <a href="shop.html">shop now</a>
+  </section>
+
+</body>
+</html>
